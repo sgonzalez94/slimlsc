@@ -5,7 +5,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 $app->get('/', function(Request $request, Response $response){
     
-   return $this->view->render($response, 'inicio.php');
+   return $this->view->render($response, 'home.php');
         
   
 })->setName('inicio');

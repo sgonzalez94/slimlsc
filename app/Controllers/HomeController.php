@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Controllers;
+
+use App\Models\Usuario;
 use Slim\Views\Twig as View;
 
 class HomeController extends Controller{
