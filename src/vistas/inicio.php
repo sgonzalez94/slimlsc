@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-green">
       <a class="navbar-brand" href="#">Semillero LSC</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -46,44 +47,71 @@
 
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">Bienvenidos a nuestra plataforma</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-primary btn-lg" href="/registro" role="button">Registrarme &raquo;</a></p>
-        </div>
+     
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light headerdiv">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Bienvenidos</h1>
+        <p class="lead font-weight-normal">Plataforma web para el aprendizaje de lengua de señas colombiana.</p>
+        <a class="btn btn-success" href="registro">Registrarme</a>
       </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
 
       <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
+       
 
-        <hr>
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">A un clic de distancia. <span class="text-success">Aprende sin límites.</span></h2>
+    <p class="lead">Nuestro equipo de formadores son expertos reconocidos en software, negocios o creatividad, adaptan los contenidos de acuerdo a tu nivel de aprendizaje y los presentan en breves y prácticos vídeos.</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-image img-fluid mx-auto" src="images/1.jpeg" alt="Generic placeholder image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading">Aprende a tu ritmo. <span class="text-success">Miralo tu mismo.</span></h2>
+    <p class="lead">Aprendizaje efectivo con videos de alta calidad. Tú decides el ritmo. Fusce dapibus, Aprendizaje efectivo con videos de alta calidad.</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+    <img class="featurette-image img-fluid mx-auto" src="images/2.jpeg" alt="Generic placeholder image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">Aprendiendo a aprender. <span class="text-success">Únete al curso.</span></h2>
+    <p class="lead">Aprende a través de videos, proyectos y contacta con miles de estudiantes.</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-image img-fluid mx-auto" src="images/3.jpeg" alt="Generic placeholder image">
+  </div>
+</div>
+
+<hr class="featurette-divider">
 
       </div> <!-- /container -->
 
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
     </main>
 
-    <footer class="container">
-      <p>&copy; Company 2017-2018</p>
-    </footer>
+    
 
 
     <!-- Optional JavaScript -->

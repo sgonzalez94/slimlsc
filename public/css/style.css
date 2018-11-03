@@ -1,0 +1,20 @@
+.headerdiv{
+    background: transparent url("../images/header.jpeg") no-repeat  center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+
+.bg-green{
+    background-color: #28a745;
+}
+
+@media (max-width: 768px) {
+    .headerdiv{
+        background: transparent url("../images/header.jpeg") no-repeat  center ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
